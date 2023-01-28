@@ -1,0 +1,235 @@
+
+
+  @keyframes apparition {
+    from {
+        margin-left: -200px;
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+p {
+    color: yellow;
+    background-color: slateblue;
+    border:solid;
+    border-color: black;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+    text-shadow:0 1px 0 #333;
+ 
+}
+
+main {
+    width: 80%;
+    min-width: 500px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+button{
+    width: 180px;
+    color: #000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: #fff;
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 10px;
+}
+
+button:hover{
+    background-color: #FCD535;
+    transition: all 1s ease-out;
+}
+
+body {
+    margin: 0;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../img/background.jpg);
+}
+
+
+
+header{
+    height: 70px;
+    line-height: 70px;
+    margin-bottom: 100px;
+
+}
+ul{
+    list-style: none;
+}
+
+h1 {
+    animation-duration: 4s;
+    animation-name:apparition;
+    text-align: left;
+    margin-left: 50px;
+    color: gray;
+    text-shadow:0 1px 0 #333;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+h2 {
+    animation-duration: 8s;
+    animation-name:apparition;
+    margin: 25px 10px 25px;
+    border-bottom-style: inset;
+    color: white;
+}
+h4 {
+    color: white;
+}
+h3 {
+    color: white;
+}
+blockquote {
+    color: white;
+}
+
+.extlink {
+    color: red;
+}
+
+.intLink {
+    color: seagreen;
+}
+
+.mail {
+    color: green;
+}
+
+h1:hover{
+    color: #FCD535;
+    transition: all 1s ease-out;
+}
+
+h2:hover {
+    color: #FCD535;
+    transition: all 1s ease-out;
+    text-shadow:0 1px 0 #333;
+}
+
+h3:hover {
+    color: #FCD535;
+    transition: all 1s ease-out;
+}
+
+p:hover {
+    color: white;
+    transition: all 1s ease-out;
+}
+
+q::before {
+    color: black;
+    
+}
+
+q::after {
+    color: black;
+}
+
+q {
+    background-color: slateblue;
+}
+
+li {
+    animation-duration: 2s;
+    animation-name:apparition;
+    margin: 30px 30px 30px;
+    color: white;
+    text-rendering: auto;
+    font-size: 16px;
+    
+}
+li a:hover{
+    background-color: #FCD535;
+    transition: all 1s ease-out;
+}
+img{
+    animation-duration: 5s;
+    animation-name:apparition;
+}
+
+
+
+  img.GIF{
+      position: relative;
+      float: right;
+      width: 250px;
+      padding-top: 10px;
+  }
+
+
+
+
+  nav {
+    animation-duration: 8s;
+    animation-name:apparition;
+    list-style: none;
+    position: relative;
+    width: 319px;
+    display: table;
+    transform: translateY(-120%);
+    float: right;
+    margin-right: 40px;
+  }
+  
+  nav a {
+    position: relative;
+    width: 34%;
+    display: table-cell;
+    text-align: center;
+    color: gray;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding: 10px 20px;
+    transition: 0.2s ease color;
+  }
+  
+  
+  nav a:hover {
+    color: #FCD535;
+    transition: all 1s ease-out;
+    
+  }
+  
+  nav a:hover:before,
+  nav a:hover:after {
+    transform: scale(1);
+  }
+  
+
+
+ img#img1{
+    max-width: 550px;
+    width : 500px;
+    border-radius: 40px;
+    margin-left: 300px;
+}
+
+img#img2{
+    border-radius: 50px;
+    width: 1000px;
+}
+img#img3{
+    border-radius: 50px;
+    width: 1000px;
+}
+
+video#vid{
+    width:500px ; 
+    height:240px;
+    border-radius: 20px;
+}
+
